@@ -27,7 +27,7 @@ def display_tickets(status_filter=None):
         if status_filter is None or details["Status"] == status_filter:
             print(f"Ticket ID: {ticket_id}, Customer: {details['Customer']}, Issue: {details['Issue']}, Status: {details['Status']}")
 
-
+# 
 print("Initial Service Tickets:")
 display_tickets()
 
